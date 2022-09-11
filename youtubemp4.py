@@ -1,6 +1,6 @@
 import pytube
 
-url= "https://player.vimeo.com/video/735668691 "
+url= "https:// "
 youtube = pytube.YouTube(url)
 video = youtube.streams.first()
 video = youtube.streams.get_highest_resolution()
